@@ -3,14 +3,14 @@
 using namespace std;
 
 int main(){
-	int cantidadnum, i, s;
-	cout<<nn ******************************<<endl;
-	cout<< INGRESE LA CANTIDAD DE NUMEROS<<endl;
-	cout<< ******************************<<endl;
-	cin>>cantidadnum;
-	s=0;
-	for(i=1; i<=cantidadnum; i++){
-		s=s+i;
+	int cantidadnumeros, i, suma;
+	cout<<"\n\n     ******************************"<<endl;
+	cout<<"     INGRESE LA CANTIDAD DE NUMEROS"<<endl;
+	cout<<"     ******************************"<<endl;
+	cin>>cantidadnumeros;
+	suma=0;
+	for(i=1; i<=cantidadnumeros; i++){
+		suma=suma+i;
 	}
-	cout<<LA SUMA DE LOS PRIMEROS NUMEROS NATURALES ES: <<s<<endl;
+	cout<<"LA SUMA DE LOS PRIMEROS NUMEROS NATURALES ES: "<<suma<<endl;
 }
