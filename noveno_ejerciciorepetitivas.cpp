@@ -3,21 +3,27 @@
 using namespace std;
 
 int main(){
-	double num, contadordig, a;
-	cout<<INGRESE EL NUMERO POSITIVO<<endl;
-	cin>>num;
-	a=num;
+	double numero, contadordig, guardador;
+	cout<<"\n\n     **************************"<<endl;
+	cout<<"     INGRESE EL NUMERO POSITIVO"<<endl;
+	cout<<"     **************************"<<endl;
+	cin>>numero;
+	guardador=numero;
 	contadordig=1;
-	if (num>0){
-		while (num/10>1){
-			num=num/10;
+	if (numero>0){
+		while (numero/10>1){
+			numero=numero/10;
 			contadordig=contadordig+1;
 			
 		}
 	}else{
-		cout<<EL NUMERO DEBE SER POSITIVO<<endl;
+		cout<<"\n\n     ***************************"<<endl;
+		cout<<"     EL NUMERO DEBE SER POSITIVO"<<endl;
+		cout<<"     ***************************"<<endl;
 		return 0;
 	}
-	cout<<LA CANTIDAD DE DIGITOS DE << a <<  ES: <<contadordig<<endl;
+	cout<<"\n\n     *************************************"<<endl;
+	cout<<"     LA CANTIDAD DE DIGITOS DE "<< guardador <<"  ES: "<<contadordig<<endl;
+	cout<<"     ************************************"<<endl;
 	return 0;
 }
